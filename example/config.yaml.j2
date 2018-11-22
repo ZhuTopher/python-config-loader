@@ -1,0 +1,7 @@
+log_level: {{ 'unset' | env_templated('LOG_LEVEL') }}
+obj1:
+  key1: {{ 'unset' | env_templated('OBJ1_KEY1') }}
+  key2: {{ 'unset' | env_templated('OBJ1_KEY2') }}
+obj2:
+  key1: {{ 'unset' | env_templated('OBJ2_KEY1') }}
+  key2: {{ 'unset' | env_templated('OBJ2_KEY2') }}
